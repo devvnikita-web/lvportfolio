@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nikita Čučajevs - Tīmekļa izstrādātājs no Rīgas. Mūsdienīgu mājaslapu, vizītkaršu un portfolio izveide 24-48 stundu laikā. Adaptīvs dizains, individuāla pieeja.">
+    <title>Nikita Čučajevs | Tīmekļa Izstrādātājs | Rīga, Latvija</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="lv">LV</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">
+                    <span class="logo-icon">NC</span>
+                    <span class="logo-text">Nikita Čučajevs</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link" data-lv="Sākums" data-en="Home">Sākums</a></li>
+                    <li><a href="#about" class="nav-link" data-lv="Par mani" data-en="About">Par mani</a></li>
+                    <li><a href="#services" class="nav-link" data-lv="Pakalpojumi" data-en="Services">Pakalpojumi</a></li>
+                    <li><a href="#portfolio" class="nav-link" data-lv="Darbi" data-en="Portfolio">Darbi</a></li>
+                    <li><a href="#process" class="nav-link" data-lv="Process" data-en="Process">Process</a></li>
+                    <li><a href="#contact" class="nav-link" data-lv="Kontakti" data-en="Contact">Kontakti</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <div class="hero-tag">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-lv="Rīga, Latvija" data-en="Riga, Latvia">Rīga, Latvija</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span data-lv="Sveiki, es esmu" data-en="Hello, I'm">Sveiki, es esmu</span> <span class="gradient-text">Nikita Čučajevs</span>
+                    </h1>
+                    <h2 class="hero-subtitle" data-lv="Tīmekļa izstrādātājs | Mūsdienīgu mājaslapu izveide" data-en="Web Developer | Creating Modern Websites">
+                        Tīmekļa izstrādātājs | Mūsdienīgu mājaslapu izveide
+                    </h2>
+                    <p class="hero-description">
+                        <span data-lv="Izstrādāju landing pages, vizītkartes un korporatīvās mājaslapas" data-en="I develop landing pages, business cards and corporate websites">Izstrādāju landing pages, vizītkartes un korporatīvās mājaslapas</span><br>
+                        <span data-lv="ar adaptīvu dizainu" data-en="with responsive design in">ar adaptīvu dizainu</span> <strong>24-48 <span data-lv="stundās" data-en="hours">stundās</span></strong>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            <span data-lv="Pasūtīt mājaslapu" data-en="Order Website">Pasūtīt mājaslapu</span>
+                        </a>
+                        <a href="#portfolio" class="btn btn-secondary">
+                            <i class="fas fa-briefcase"></i>
+                            <span data-lv="Skatīt darbus" data-en="View Portfolio">Skatīt darbus</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">24-48</div>
+                            <div class="stat-label" data-lv="stundas" data-en="hours">stundas</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label" data-lv="adaptivitāte" data-en="responsive">adaptivitāte</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label" data-lv="radošums" data-en="creativity">radošums</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="hero-card">
+                        <div class="card-glow"></div>
+                        <i class="fas fa-code hero-icon"></i>
+                        <div class="floating-elements">
+                            <div class="float-element" style="top: 10%; left: 10%;">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="float-element" style="top: 20%; right: 15%;">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="float-element" style="bottom: 20%; left: 15%;">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="float-element" style="bottom: 15%; right: 10%;">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-lv="Iepazīsimies" data-en="Get to Know">Iepazīsimies</span>
+                <h2 class="section-title" data-lv="Par mani" data-en="About Me">Par mani</h2>
+                <p class="section-description" data-lv="Specializējos mūsdienīgu tīmekļa vietņu izveidē" data-en="I specialize in creating modern websites">
+                    Specializējos mūsdienīgu tīmekļa vietņu izveidē
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-paragraph">
+                        <span data-lv="Sveiki! Es esmu" data-en="Hello! I'm">Sveiki! Es esmu</span> <strong>Nikita</strong>, <span data-lv="tīmekļa izstrādātājs no Rīgas. Izveidoju mūsdienīgas, ātras un adaptīvas mājaslapas, kas darbojas visās ierīcēs un piesaista klientus." data-en="a web developer from Riga. I create modern, fast and responsive websites that work on all devices and attract clients.">tīmekļa izstrādātājs no Rīgas. Izveidoju mūsdienīgas, ātras un adaptīvas mājaslapas, kas darbojas visās ierīcēs un piesaista klientus.</span>
+                    </p>
+                    <p class="about-paragraph">
+                        <span data-lv="Mana specializācija ir" data-en="My specialization is">Mana specializācija ir</span> <strong data-lv="landing pages" data-en="landing pages">landing pages</strong>, <strong data-lv="vizītkartes" data-en="business card websites">vizītkartes</strong> <span data-lv="un" data-en="and">un</span> <strong data-lv="portfolio" data-en="portfolios">portfolio</strong> <span data-lv="biznesa un speciālistu vajadzībām. Es izmantoju mūsdienīgas tehnoloģijas un rezultātorientētu pieeju." data-en="for businesses and professionals. I use modern technologies and a result-oriented approach.">biznesa un speciālistu vajadzībām. Es izmantoju mūsdienīgas tehnoloģijas un rezultātorientētu pieeju.</span>
+                    </p>
+                    <p class="about-paragraph">
+                        <span data-lv="Strādāju ātri, bet kvalitatīvi. Katrs projekts ir individuāla pieeja, uzmanība detaļām un jūsu mērķi pirmajā vietā." data-en="I work fast but with quality. Each project is an individual approach, attention to detail and your goals come first.">Strādāju ātri, bet kvalitatīvi. Katrs projekts ir individuāla pieeja, uzmanība detaļām un jūsu mērķi pirmajā vietā.</span>
+                    </p>
+                    
+                    <div class="skills">
+                        <h3 class="skills-title" data-lv="Tehnoloģijas un rīki:" data-en="Technologies and tools:">Tehnoloģijas un rīki:</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span data-lv="Adaptīvā izkārtojums" data-en="Responsive Design">Adaptīvā izkārtojums</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-rocket"></i>
+                                <span data-lv="Optimizācija" data-en="Optimization">Optimizācija</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-card">
+                        <div class="code-window">
+                            <div class="code-header">
+                                <div class="code-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <span class="code-title">portfolio.js</span>
+                            </div>
+                            <div class="code-body">
+                                <code>
+<span class="code-keyword">const</span> developer = {
+  <span class="code-property">name</span>: <span class="code-string">'Nikita Čučajevs'</span>,
+  <span class="code-property">location</span>: <span class="code-string">'Rīga, Latvija'</span>,
+  <span class="code-property">skills</span>: [
+    <span class="code-string">'HTML5'</span>,
+    <span class="code-string">'CSS3'</span>,
+    <span class="code-string">'JavaScript'</span>,
+    <span class="code-string">'Responsive Design'</span>
+  ],
+  <span class="code-property">passion</span>: <span class="code-string">'Mājas­lapu izveide'</span>,
+  <span class="code-property">availability</span>: <span class="code-value">true</span>
+};
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-lv="Ko es daru" data-en="What I Do">Ko es daru</span>
+                <h2 class="section-title" data-lv="Mani pakalpojumi" data-en="My Services">Mani pakalpojumi</h2>
+                <p class="section-description" data-lv="Profesionāla mājaslapu izstrāde" data-en="Professional website development">
+                    Profesionāla mājaslapu izstrāde
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="service-title" data-lv="Landing Pages" data-en="Landing Pages">Landing Pages</h3>
+                    <p class="service-description" data-lv="Vienas lapas vietnes preču vai pakalpojumu pārdošanai. Augsta konversija, ātra ielāde un pārdošanas dizains." data-en="Single-page websites for selling products or services. High conversion, fast loading and sales-driven design.">
+                        Vienas lapas vietnes preču vai pakalpojumu pārdošanai. Augsta konversija, ātra ielāde un pārdošanas dizains.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-lv="Pārdošanas dizains" data-en="Sales-driven design">Pārdošanas dizains</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Atgriezeniskās saites formas" data-en="Feedback forms">Atgriezeniskās saites formas</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Mobilā adaptācija" data-en="Mobile adaptation">Mobilā adaptācija</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="SEO optimizācija" data-en="SEO optimization">SEO optimizācija</span></li>
+                    </ul>
+                    <div class="service-price">
+                        <span data-lv="no" data-en="from">no</span> 150€
+                    </div>
+                </div>
+
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="featured-badge" data-lv="Populārākais" data-en="Most Popular">Populārākais</div>
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="service-title" data-lv="Vizītkartes" data-en="Business Card Websites">Vizītkartes</h3>
+                    <p class="service-description" data-lv="Vairāku lapu vietnes biznesa prezentācijai. Ideāli piemērots mazajiem un vidējiem uzņēmumiem, pakalpojumiem un kompānijām." data-en="Multi-page websites for business presentation. Perfect for small and medium businesses, services and companies.">
+                        Vairāku lapu vietnes biznesa prezentācijai. Ideāli piemērots mazajiem un vidējiem uzņēmumiem, pakalpojumiem un kompānijām.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-lv="Līdz 5-7 lappuses" data-en="Up to 5-7 pages">Līdz 5-7 lappuses</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Kontaktu formas" data-en="Contact forms">Kontaktu formas</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Kartes un ģeolokācija" data-en="Maps and geolocation">Kartes un ģeolokācija</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Sociālo tīklu integrācija" data-en="Social media integration">Sociālo tīklu integrācija</span></li>
+                    </ul>
+                    <div class="service-price">
+                        <span data-lv="no" data-en="from">no</span> 225€
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="service-title" data-lv="Portfolio" data-en="Portfolio">Portfolio</h3>
+                    <p class="service-description" data-lv="Darbu prezentācija speciālistiem un radošajām profesijām. Fotografi, dizaineri, mākslinieki, meistari." data-en="Work presentation for specialists and creative professions. Photographers, designers, artists, masters.">
+                        Darbu prezentācija speciālistiem un radošajām profesijām. Fotografi, dizaineri, mākslinieki, meistari.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-lv="Darbu galerija" data-en="Work gallery">Darbu galerija</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Pakalpojumu apraksts" data-en="Service description">Pakalpojumu apraksts</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Cenu saraksts" data-en="Price list">Cenu saraksts</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lv="Pasūtījuma forma" data-en="Order form">Pasūtījuma forma</span></li>
+                    </ul>
+                    <div class="service-price">
+                        <span data-lv="no" data-en="from">no</span> 200€
+                    </div>
+                </div>
+            </div>
+
+            <!-- Advantages -->
+            <div class="advantages" data-aos="fade-up">
+                <h3 class="advantages-title" data-lv="Kāpēc izvēlēties mani?" data-en="Why choose me?">Kāpēc izvēlēties mani?</h3>
+                <div class="advantages-grid">
+                    <div class="advantage-item">
+                        <i class="fas fa-bolt"></i>
+                        <h4 data-lv="Ātra izpilde" data-en="Fast delivery">Ātra izpilde</h4>
+                        <p data-lv="Gatava mājaslapa 24-48 stundās" data-en="Ready website in 24-48 hours">Gatava mājaslapa 24-48 stundās</p>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4 data-lv="Adaptīvs dizains" data-en="Responsive design">Adaptīvs dizains</h4>
+                        <p data-lv="Darbojas visās ierīcēs" data-en="Works on all devices">Darbojas visās ierīcēs</p>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <h4 data-lv="Mūsdienīgs dizains" data-en="Modern design">Mūsdienīgs dizains</h4>
+                        <p data-lv="Aktuālie trendi 2024-2026" data-en="Current trends 2024-2026">Aktuālie trendi 2024-2026</p>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-sync-alt"></i>
+                        <h4 data-lv="Bezmaksas labojumi" data-en="Free revisions">Bezmaksas labojumi</h4>
+                        <p data-lv="2-3 iterācijas līdz rezultātam" data-en="2-3 iterations until result">2-3 iterācijas līdz rezultātam</p>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-user-tie"></i>
+                        <h4 data-lv="Individuāla pieeja" data-en="Individual approach">Individuāla pieeja</h4>
+                        <p data-lv="Ņemu vērā visus jūsu vēlējumus" data-en="I consider all your wishes">Ņemu vērā visus jūsu vēlējumus</p>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-headset"></i>
+                        <h4 data-lv="Atbalsts" data-en="Support">Atbalsts</h4>
+                        <p data-lv="Palīdzība pēc projekta nodošanas" data-en="Help after project delivery">Palīdzība pēc projekta nodošanas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-lv="Mani darbi" data-en="My Works">Mani darbi</span>
+                <h2 class="section-title" data-lv="Projektu piemēri" data-en="Project Examples">Projektu piemēri</h2>
+                <p class="section-description" data-lv="Portfolio ar dažādu tipu mājaslapām" data-en="Portfolio of various types of websites">
+                    Portfolio ar dažādu tipu mājaslapām
+                </p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder landing">
+                            <i class="fas fa-rocket"></i>
+                            <span>Landing Page</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4 data-lv="Landing biznesa vajadzībām" data-en="Landing for business">Landing biznesa vajadzībām</h4>
+                            <p data-lv="Vienas lapas vietne pakalpojumu pārdošanai" data-en="Single-page site for selling services">Vienas lapas vietne pakalpojumu pārdošanai</p>
+                            <div class="portfolio-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder business">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Business Site</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4 data-lv="Korporatīvā mājaslapa" data-en="Corporate website">Korporatīvā mājaslapa</h4>
+                            <p data-lv="Vairāku lapu mājaslapa uzņēmumam" data-en="Multi-page website for company">Vairāku lapu mājaslapa uzņēmumam</p>
+                            <div class="portfolio-tags">
+                                <span data-lv="Adaptīvs" data-en="Responsive">Adaptīvs</span>
+                                <span data-lv="Formas" data-en="Forms">Formas</span>
+                                <span>SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-type">
+                            <i class="fas fa-palette"></i>
+                            <span>Portfolio</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4 data-lv="Fotogrāfa portfolio" data-en="Photographer portfolio">Fotogrāfa portfolio</h4>
+                            <p data-lv="Darbu prezentācija ar galeriju" data-en="Work presentation with gallery">Darbu prezentācija ar galeriju</p>
+                            <div class="portfolio-tags">
+                                <span data-lv="Galerija" data-en="Gallery">Galerija</span>
+                                <span data-lv="Animācijas" data-en="Animations">Animācijas</span>
+                                <span data-lv="Dizains" data-en="Design">Dizains</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder restaurant">
+                            <i class="fas fa-utensils"></i>
+                            <span>Restaurant</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4 data-lv="Restorāna mājaslapa" data-en="Restaurant website">Restorāna mājaslapa</h4>
+                            <p data-lv="Ēdienkarte, rezervācija, kontakti" data-en="Menu, booking, contacts">Ēdienkarte, rezervācija, kontakti</p>
+                            <div class="portfolio-tags">
+                                <span data-lv="Ēdienkarte" data-en="Menu">Ēdienkarte</span>
+                                <span data-lv="Karte" data-en="Map">Karte</span>
+                                <span data-lv="Formas" data-en="Forms">Formas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-lv="Kā es strādāju" data-en="How I Work">Kā es strādāju</span>
+                <h2 class="section-title" data-lv="Mājaslapas izveides process" data-en="Website Creation Process">Mājaslapas izveides process</h2>
+                <p class="section-description" data-lv="Pārredzama un saprotama darba shēma" data-en="Transparent and understandable work scheme">
+                    Pārredzama un saprotama darba shēma
+                </p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3 class="step-title" data-lv="Uzdevuma apspriešana" data-en="Task Discussion">Uzdevuma apspriešana</h3>
+                        <p class="step-description" data-lv="Iepazīstu jūsu biznesu, mērķus un prasības. Savāktu visu nepieciešamo informāciju: tekstus, attēlus, vēlamo stilu un funkcionalitāti." data-en="I study your business, goals and requirements. Collect all necessary information: texts, images, desired style and functionality.">
+                            Iepazīstu jūsu biznesu, mērķus un prasības. Savāktu visu nepieciešamo informāciju: tekstus, attēlus, vēlamo stilu un funkcionalitāti.
+                        </p>
+                        <div class="step-duration">1-2 <span data-lv="stundas" data-en="hours">stundas</span></div>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="step-title" data-lv="Dizains un saskaņošana" data-en="Design and Approval">Dizains un saskaņošana</h3>
+                        <p class="step-description" data-lv="Izveidoju mājaslapas maketu, ņemot vērā jūsu vēlējumus. Izvēlos krāsu shēmu, fontus un stilu. Saskaņojam koncepciju kopā." data-en="I create a website layout taking into account your wishes. I select color scheme, fonts and style. We agree on the concept together.">
+                            Izveidoju mājaslapas maketu, ņemot vērā jūsu vēlējumus. Izvēlos krāsu shēmu, fontus un stilu. Saskaņojam koncepciju kopā.
+                        </p>
+                        <div class="step-duration">4-8 <span data-lv="stundas" data-en="hours">stundas</span></div>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="step-title" data-lv="Izstrāde un testēšana" data-en="Development and Testing">Izstrāde un testēšana</h3>
+                        <p class="step-description" data-lv="Izveidoju mājaslapu, pievienu interaktivitāti un animācijas. Testēju dažādās ierīcēs un pārlūkprogrammās ideālai darbībai." data-en="I create the website, add interactivity and animations. I test on different devices and browsers for perfect operation.">
+                            Izveidoju mājaslapu, pievienu interaktivitāti un animācijas. Testēju dažādās ierīcēs un pārlūkprogrammās ideālai darbībai.
+                        </p>
+                        <div class="step-duration">12-24 <span data-lv="stundas" data-en="hours">stundas</span></div>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-left" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 class="step-title" data-lv="Nodošana un atbalsts" data-en="Delivery and Support">Nodošana un atbalsts</h3>
+                        <p class="step-description" data-lv="Nododu gatavu mājaslapu, palīdzu ar izvietošanu hostingā. Veicu apmācību un paliekuu kontaktā, lai veiktu labojumus." data-en="I deliver the finished website, help with hosting placement. I conduct training and remain in contact to make corrections.">
+                            Nododu gatavu mājaslapu, palīdzu ar izvietošanu hostingā. Veicu apmācību un paliekuu kontaktā, lai veiktu labojumus.
+                        </p>
+                        <div class="step-duration">2-4 <span data-lv="stundas" data-en="hours">stundas</span> + <span data-lv="atbalsts" data-en="support">atbalsts</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-lv="Sazinieties ar mani" data-en="Get in Touch">Sazinieties ar mani</span>
+                <h2 class="section-title" data-lv="Kontakti" data-en="Contact">Kontakti</h2>
+                <p class="section-description" data-lv="Gatavs apspriest jūsu projektu tūlīt" data-en="Ready to discuss your project right now">
+                    Gatavs apspriest jūsu projektu tūlīt
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3 class="contact-info-title" data-lv="Izveidosim kopā kaut ko izcilu!" data-en="Let's create something great together!">Izveidosim kopā kaut ko izcilu!</h3>
+                    <p class="contact-info-text" data-lv="Nosūtiet man ziņu, un es sazināšos ar jums 1-2 stundu laikā. Apspriedīsim jūsu projektu un sāksim darbu." data-en="Send me a message and I will contact you within 1-2 hours. Let's discuss your project and get started.">
+                        Nosūtiet man ziņu, un es sazināšos ar jums 1-2 stundu laikā. Apspriedīsim jūsu projektu un sāksim darbu.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:chuchnikita@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>chuchnikita@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://t.me/alpinmeimfine" target="_blank" class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <div>
+                                <h4>Telegram</h4>
+                                <span>@alpinmeimfine</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/37120018338" target="_blank" class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <span>+371 20 018 338</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                   <form action="https://api.web3forms.com/submit" method="POST" class="contact-form fade-in">
+    
+    <!-- Access Key -->
+    <input type="hidden" name="access_key" value="0b314178-01fe-4767-bd09-a65854932fb1">
+    
+    <!-- Email настройки -->
+    <input type="hidden" name="subject" value="🎯 Jauns pieprasījums no portfolio | Nikita Čučajevs">
+    <input type="hidden" name="from_name" value="Portfolio Contact Form">
+    <input type="hidden" name="redirect" value="https://devvnikita-web.github.io/myportfolio/#contact">
+    
+    <!-- Имя -->
+    <div class="form-group">
+        <label for="name" data-lv="Jūsu vārds" data-en="Your name">Jūsu vārds</label>
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            required 
+            minlength="2"
+            placeholder="Jānis Bērziņš">
+    </div>
+    
+    <!-- Email -->
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            required
+            placeholder="janis@example.com">
+    </div>
+    
+    <!-- Телефон (необязательно) -->
+    <div class="form-group">
+        <label for="phone" data-lv="Tālrunis (neobligāti)" data-en="Phone (optional)">Tālrunis (neobligāti)</label>
+        <input 
+            type="tel" 
+            id="phone" 
+            name="phone"
+            placeholder="+371 XX XXX XXX">
+    </div>
+    
+    <!-- Сообщение -->
+    <div class="form-group">
+        <label for="message" data-lv="Ziņojums" data-en="Message">Ziņojums</label>
+        <textarea 
+            id="message" 
+            name="message" 
+            rows="5" 
+            required 
+            minlength="20"
+            data-lv="Pastāstiet par savu projektu..." 
+            data-en="Tell about your project..."
+            placeholder="Pastāstiet par savu projektu..."></textarea>
+    </div>
+    
+    <!-- Защита от спама -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
+    <!-- Кнопка отправки -->
+    <button type="submit" class="submit-btn" data-lv="Nosūtīt ziņu" data-en="Send Message">Nosūtīt ziņu</button>
+    
+</form>
+
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h4 data-lv="Paldies par ziņu!" data-en="Thank you for your message!">Paldies par ziņu!</h4>
+                        <p data-lv="Es sazināšos ar jums tuvākajā laikā." data-en="I will contact you soon.">Es sazināšos ar jums tuvākajā laikā.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">NC</span>
+                    <span class="logo-text">Nikita Čučajevs</span>
+                </div>
+                <p class="footer-text">
+                    <span data-lv="Tīmekļa izstrādātājs | Rīga, Latvija" data-en="Web Developer | Riga, Latvia">Tīmekļa izstrādātājs | Rīga, Latvija</span><br>
+                    <span data-lv="Mūsdienīgu mājaslapu izveide 24-48 stundās" data-en="Creating modern websites in 24-48 hours">Mūsdienīgu mājaslapu izveide 24-48 stundās</span>
+                </p>
+
+                <p class="footer-copyright">
+                    © 2026 Nikita Čučajevs. <span data-lv="Visas tiesības aizsargātas." data-en="All rights reserved.">Visas tiesības aizsargātas.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
